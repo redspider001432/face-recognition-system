@@ -1,0 +1,39 @@
+# This project is Created By spider alone
+# Steps to Run this project
+# step-1. First Create virtual env by running this command"python3 -m venv /path/to/new/virtual/environment".
+#Make sure you give a path to current working directory of project
+# step-2. After creating virtual env install requirements.txt by running "pip install -r requirments.txt"
+# step-4 open login.py main file of the project
+
+boltons==21.0.0
+face==22.0.0
+googleapis-common-protos==1.57.0
+mysql-connector-python==8.0.31
+mysqlclient==2.1.1
+numpy==1.23.5
+opencv-contrib-python==4.6.0.66
+packaging==22.0
+parso==0.8.3
+pickleshare==0.7.5
+Pillow==9.3.0
+platformdirs==2.6.0
+prompt-toolkit==3.0.36
+protobuf==4.21.12
+psutil==5.9.4
+pure-eval==0.2.2
+Pygments==2.13.0
+python-dateutil==2.8.2
+PyWavelets==1.4.1
+pywin32==305
+pyzmq==24.0.1
+scikit-image==0.19.3
+scipy==1.9.3
+six==1.16.0
+stack-data==0.6.2
+tifffile==2022.10.10
+tornado==6.2
+train==0.0.5
+traitlets==5.7.1
+wcwidth==0.2.5
+
+pyttsx3~=2.90
