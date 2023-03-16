@@ -3,9 +3,8 @@ from time import strftime
 from datetime import datetime
 import cv2
 import mysql.connector
-import winsound
 from PIL import Image, ImageTk
-import winsound
+
 
 
 class FaceRecognition:
@@ -110,14 +109,14 @@ class FaceRecognition:
                 dT = now.strftime("%H:%M:%S")
                 file.writelines(f"\n{id},{r},{n},{d},{c},{dT},{d1},Present")
 
-    def playBeepSoud(self):
-        frequency = 2000
-        duration = 2000
+   # def playBeepSoud(self):
+    #    frequency = 2000
+     #   duration = 2000
 
-        winsound.Beep(frequency,duration)
+      #  winsound.Beep(frequency,duration)
 
-    def playSuccessSound(self):
-        winsound.PlaySound("success.wav",winsound.SND_FILENAME)
+ #   def playSuccessSound(self):
+  #      winsound.PlaySound("success.wav",winsound.SND_FILENAME)
 
 
 if __name__ == "__main__":
